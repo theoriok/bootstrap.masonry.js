@@ -61,7 +61,7 @@
 
                     if (media('(min-width: ' + mediaNew + 'px)')) {
                         var colNumber = data[index];
-                        colsHtml = repeat((12 / colNumber), '<div class="col-' + width + '-' + colNumber + '"/>');
+                        colsHtml = repeat((12 / colNumber), '<div class="col-' + width + '-' + colNumber + '"></div>');
 
                         break;
                     }
